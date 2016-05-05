@@ -1,5 +1,6 @@
-# Default is "World"
-name = ARGV.first || "World"
+# Default is World
+# Author: Jim Weirich
+ name = ARGV.first || "World"
 
-puts "Hello, #{name}!"
+ puts "Hello, #{name}!"
 
